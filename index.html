@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/logorosxely.png" type="image/x-ico">
+</head>
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="imagens/logorosxely.png" alt="logorosxely">
+            <h1>Mensagens codificadas</h1>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+                <p>ATENÇÃO: Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div id="output">
+                <img src="imagens/logorosxely.png" alt="logorosxely">
+                <h2>Sua mensagem aparecerá aqui</h2>
+                <span>Digite um texto que você deseja criptografar ou descriptografar</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="conteiner-bnt">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://youtube.com/@roxelymartinez199"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="https://instragram.com/RosxelyMartinez"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://Github.com/RosxelyCoraspe"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://facebook.com/RoxelyMarian"><ion-icon name="logo-facebook"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Rosxely Coraspe</h3>
+    </footer>
+
+    <script src="interacao/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script  nomodule  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
